@@ -1,0 +1,24 @@
+{{text}}
+{{if details}}
+    {{details}}
+        {{if type|equals>ulist}}
+                {{items}}
+- **{{handle}}** {{text}}
+                {{/items}}
+        {{/if}}
+        {{if type|equals>olist}}
+            {{items}}
+{{##}}.- **{{handle}}** {{text}}
+            {{/items}}
+        {{/if}}
+        {{if type|equals>note}}
+*Note:* {{text}}
+        {{/if}}
+    {{/details}}
+{{/if}}
+
+--------------
+
+[UNDERSTAND](http://www.w3.org/TR/UNDERSTANDING-WCAG20/{{urlId}}.html)
+[HOW_TO](http://www.w3.org/WAI/WCAG20/quickref/#qr-{{urlId}})
+

@@ -1,0 +1,17 @@
+{
+  "name": "A11yTrello",
+  "description": "Add accessibility cards to trello",
+  "version": "0.0.1",
+  "author": {
+    "name": "Raul Martin",
+    "email": "luarmr@gmail.com"
+  },
+  "engines": {
+    "node": ">= 4.6.1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "markup-js": "^1.5.21",
+    "trello": "^0.7.0"
+  }
+}
