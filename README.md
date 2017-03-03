@@ -34,5 +34,4 @@ Column is a list inside a board. You can play here:
 
 Thanks to:
 ----------
-The Json with the list of wcag is coming from: [wcag-em-report-tool](https://github.com/w3c/wcag-em-report-tool)
-
+This tool uses a JSON format containing all the texts of WCAG principles, guidelines and criteria. This JSON document was generated using the Wcag2Json project. https://github.com/WilcoFiers/wcag2json/
